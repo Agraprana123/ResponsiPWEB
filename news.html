@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Teknologi - Demam HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .date {
+            color: gray;
+            font-size: 0.9em;
+        }
+        .content {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Demam HTML: Tren Baru di Dunia Teknologi</h1>
+        <p class="date">Dipublikasikan pada: <span id="date"></span></p>
+        <div class="content">
+            <p>HTML kembali menjadi tren utama dalam dunia pengembangan web. Dengan semakin banyaknya framework baru dan teknologi berbasis web, para developer kini lebih tertarik untuk memahami HTML secara mendalam.</p>
+            <p>Beberapa faktor utama yang menyebabkan "Demam HTML" ini antara lain kemudahan pembelajaran, fleksibilitas, serta kompatibilitasnya dengan berbagai teknologi modern.</p>
+            <p>"HTML adalah fondasi dari setiap halaman web. Dengan pemahaman yang baik, kita bisa membangun aplikasi web yang cepat dan responsif," kata seorang ahli web development.</p>
+            <p>Selain itu, dengan semakin berkembangnya teknologi seperti Progressive Web Apps (PWA) dan Web Components, penggunaan HTML menjadi semakin penting. Banyak perusahaan besar kini kembali berinvestasi dalam pengembangan web berbasis HTML untuk memastikan kompatibilitas yang lebih luas di berbagai perangkat.</p>
+            <p>Para pengembang juga menyadari bahwa pemahaman yang kuat tentang HTML dapat membantu mereka mengoptimalkan kinerja situs web, meningkatkan aksesibilitas, dan mempercepat pengembangan proyek.</p>
+            <p>"Kami melihat peningkatan minat terhadap HTML dalam komunitas developer, baik dari kalangan pemula maupun profesional. Ini adalah era di mana HTML kembali menjadi bintang utama dalam dunia teknologi," ujar seorang pengamat industri.</p>
+            <p>Dengan tren ini, banyak platform edukasi mulai menyediakan lebih banyak kursus dan pelatihan tentang HTML serta integrasinya dengan teknologi terbaru seperti CSS Grid, Flexbox, dan API Web.</p>
+            <p>Ke depan, "Demam HTML" diprediksi akan terus berkembang seiring dengan munculnya inovasi-inovasi baru dalam pengembangan web. Bagi para developer, ini adalah saat yang tepat untuk memperdalam pemahaman mereka tentang HTML dan teknologi pendukungnya.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById("date").innerText = new Date().toLocaleDateString("id-ID");
+    </script>
+</body>
+</html>
